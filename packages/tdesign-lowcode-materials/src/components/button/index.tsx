@@ -1,5 +1,5 @@
 import React, { forwardRef, Ref } from 'react';
-import { Button as OriginalButton } from 'antd';
+import { Button as OriginalButton } from 'tdesign-react';
 
 const Button: any = (props: any, ref: Ref<any>) => {
   const innerProps: any = {};
