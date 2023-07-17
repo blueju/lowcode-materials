@@ -1,7 +1,7 @@
 {
-  "name": "@alilc/antd-lowcode-materials",
+  "name": "@alilc/tdesign-lowcode-materials",
   "version": "1.2.1",
-  "description": "Antd for LowCode",
+  "description": "TDesign for LowCode",
   "main": "lib/index.js",
   "scripts": {
     "build": "build-scripts build",
@@ -44,7 +44,8 @@
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
     "antd": "^4.24.7",
-    "moment": "^2.29.1"
+    "moment": "^2.29.1",
+    "tdesign-react": "^1.1.14"
   },
   "peerDependencies": {
     "react": "^16.0.0",

@@ -1,6 +1,6 @@
 const { name, version } = require("./package.json");
 
-const library = 'AntdLowcode';
+const library = 'TDesignLowcode';
 
 module.exports = {
   sourceMap: false,
@@ -61,13 +61,13 @@ module.exports = {
                 library: 'icons',
               },
               {
-                package: 'antd',
-                version: '4.23.0',
+                package: 'tdesign-react',
+                version: '1.1.14',
                 urls: [
-                  `//g.alicdn.com/code/lib/antd/4.23.0/antd.min.js`,
-                  `//g.alicdn.com/code/lib/antd/4.23.0/antd.min.css`,
+                  `//unpkg.com/tdesign-react/dist/tdesign.min.js`,
+                  `//unpkg.com/tdesign-react/dist/tdesign.min.css`,
                 ],
-                library: 'antd',
+                library: 'TDesign',
               },
             ],
             components: [],
